@@ -1,5 +1,6 @@
-package com.example.movieapp_retrofit_mvvm_android
+package com.example.movieapp_retrofit_mvvm_android.model.repo
 
+import com.example.movieapp_retrofit_mvvm_android.model.interfaces.MovieApi
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 

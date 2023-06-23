@@ -1,4 +1,4 @@
-package com.example.movieapp_retrofit_mvvm_android
+package com.example.movieapp_retrofit_mvvm_android.model.data
 
 data class Result(
     val adult: Boolean,
