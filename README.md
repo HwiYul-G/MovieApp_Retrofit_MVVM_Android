@@ -32,5 +32,5 @@ adapters folder, Fragments folder 등 구성요소에 대한 folder를 가진다
 VM에서 Model과 소통하기 위해 Repo부분을 이용한 것처럼 View에선 VM과 소통하기 위헤 VM에 있는 함수를 사용한다.
 
 ## Live Data
-LiveData는 안드로이드 아키텍쳐 구성요소중 하나로, observable data holder class이다. 여기서 observable이라는 것은 Activity나 Fragments같은 UI Controller가 live data를 감시하고 있다는 것이다. 즉 LiveData는 감시되는 아키텍쳐 구성요소이다. 
+LiveData는 안드로이드 아키텍쳐 구성요소중 하나로, observable data holder class이다. 여기서 observable이라는 것은 Activity나 Fragments같은 UI Controller가 live data를 감시하고 있다는 것이다. 즉 LiveData는 감시되는 아키텍쳐 구성요소이다. live data의 가장 중요한 것은 live data가 activity나 fragments같은 자신을 감시하는 감시자들의 life cycle을 알고 있다는 것이다. 즉 live data는 활성 life cycle 상태에 있는 activity나 fragments같은 앱 구성요소를 업데이트 시킨다. livedata를 지켜보도록 등록되었지만 현재 inactive 상태인 observers는 변화에 대한 알림을 받지 않는다. 비활성 상태의 observers는 Started나 Resumes 상태가 아닌 것이다. 
 
